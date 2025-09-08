@@ -1,123 +1,69 @@
 // Event data for modal
 const eventData = {
-    filmmaking: {
-        title: "Film-making Competition",
-        date: "March 13, 2025",
-        time: "Morning (9:00 AM - 12:00 PM)",
-        fee: "₹70/-",
-        team: "Individual",
-        prizes: "1st: ₹1500, 2nd: ₹1000, 3rd: ₹500",
-        description: "Showcase your storytelling prowess and creativity through film. This competition challenges participants to create compelling short films that demonstrate technical skill and narrative excellence.",
-        rules: [
-            "Maximum duration: 5 minutes",
-            "Original content only - no plagiarism",
-            "All genres accepted (drama, comedy, documentary, etc.)",
-            "Submit in MP4 format, minimum 720p quality",
-            "Judging based on creativity, technical execution, and storytelling"
-        ],
-        formUrl: "https://forms.google.com/filmmaking"
-    },
-    minecraft: {
-        title: "Minecraft Build Battle",
-        date: "March 13, 2025",
-        time: "Morning (10:00 AM - 1:00 PM)",
-        fee: "₹100/-",
-        team: "Individual",
-        prizes: "1st: ₹1000, 2nd: ₹750, 3rd: ₹500",
-        description: "Create digital masterpieces in the world of Minecraft. Participants will have 3 hours to build themed structures showcasing creativity and architectural skills.",
-        rules: [
-            "3-hour time limit for building",
-            "Theme will be announced at the start",
-            "Creative mode only - no survival elements",
-            "No external tools or mods allowed",
-            "Judging based on creativity, detail, and theme adherence"
-        ],
-        formUrl: "https://forms.google.com/minecraft"
-    },
-    dance: {
-        title: "Dance & Ramp Walk",
-        date: "March 13, 2025",
-        time: "Evening (6:00 PM - 8:00 PM)",
-        fee: "₹150/- (Team)",
-        team: "Team (2-8 members)",
-        prizes: "1st: ₹1000, 2nd: ₹1000",
-        description: "Express yourself through movement and style. Teams will perform 2-minute dance routines followed by a ramp walk showcase, demonstrating both choreographic skills and fashion sense.",
-        rules: [
-            "Performance time: 2 minutes maximum",
-            "Team size: 2-8 members",
-            "Music must be provided by participants",
-            "Appropriate costumes and themes required",
-            "Judging on choreography, synchronization, creativity, and presentation"
-        ],
-        formUrl: "https://forms.google.com/dance"
-    },
-    openmic: {
-        title: "Open Mic Talent Show",
-        date: "March 13, 2025",
-        time: "Evening (8:30 PM - 10:30 PM)",
-        fee: "Free Entry",
-        team: "Individual",
-        prizes: "1st: ₹1000",
-        description: "A platform for diverse talents including stand-up comedy, singing, shayari, poetry, mimicry, and beatboxing. Show your unique skills and entertain the audience.",
-        rules: [
-            "Maximum performance time: 3 minutes",
-            "Categories: Stand-up, Singing, Shayari, Poetry, Mimicry, Beatbox",
-            "Original content preferred",
-            "Microphone and basic sound system provided",
-            "Judging based on audience response and creativity"
-        ],
-        formUrl: "https://forms.google.com/openmic"
-    },
     quiz: {
-        title: "Quiz Competition",
-        date: "March 15, 2025",
-        time: "Morning (9:00 AM - 12:00 PM)",
-        fee: "₹100/- (Team)",
-        team: "Team (2 members)",
-        prizes: "1st: ₹1000, 2nd: ₹500",
-        description: "Test your knowledge across various domains including technology, current affairs, sports, entertainment, and general knowledge in this exciting quiz competition.",
+        title: "TRIVIA TIME - Quiz Competition",
+        date: "September 13, 2025",
+        time: "Morning Session",
+        fee: "₹50/- per person",
+        team: "Individual participation (Teams formed randomly by organizers)",
+        prizes: "Winner: ₹1000, Runner Up: ₹500 + Certificates for all",
+        description: "Test your knowledge, quick thinking, and individual excellence in this comprehensive quiz competition covering entertainment, general knowledge, current affairs, and science & technology.",
         rules: [
-            "Team of exactly 2 members required",
-            "Multiple elimination rounds with buzzer system",
-            "Topics: Tech, Current Affairs, Sports, Entertainment, GK",
-            "Final round between top 2 teams",
-            "No electronic devices allowed during the quiz"
+            "Eligibility: Open to 2nd, 3rd, and 4th year students of all departments",
+            "Individual participation only - teams will be formed randomly by organizers",
+            "Registration fee: ₹50/- per person",
+            "Must carry valid college ID cards",
+            "Topics: Entertainment, General Knowledge, Current Affairs, Science & Tech",
+            "Round 1: Team Round → Round 2: Rapid Fire → Round 3: Buzzer → Round 4: Individual Buzzer",
+            "Scoring: 10 points per correct answer, bonus for quick response in buzzer round",
+            "Negative marking may apply for wrong answers in buzzer round",
+            "Participants must rely only on their knowledge - unfair means = disqualification",
+            "Judges' decisions are final and binding",
+            "Certificates for all participants, awards for top two winners"
         ],
-        formUrl: "https://forms.google.com/quiz"
+        formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSel25_SnkZpDNgRpoC9Jk4Px3nnybVeVTxAyWjQxH9gt_PxeQ/viewform"
     },
     debate: {
-        title: "Debate Competition",
-        date: "March 15, 2025",
-        time: "Morning (10:00 AM - 1:00 PM)",
-        fee: "₹100/-",
-        team: "Individual or Team (2 members)",
-        prizes: "1st: ₹1000, 2nd: ₹500",
-        description: "Voice your opinions and showcase your argumentative skills. Participants will engage in structured debates on contemporary topics, demonstrating critical thinking and oratory skills.",
+        title: "Battle Of Words - Debate Competition",
+        date: "September 13, 2025",
+        time: "Morning Session",
+        fee: "Free Entry",
+        team: "Individual participation (Choose 'For' or 'Against' the motion)",
+        prizes: "1st: ₹1000, 2nd: ₹500 + Certificates for all",
+        description: "Encourage critical thinking, communication skills, and confidence through structured debate on contemporary topics. Participants will debate the motion: 'Has streaming killed the traditional cinema experience?'",
         rules: [
-            "Individual or 2-member team participation",
-            "Topics announced 30 minutes before each round",
-            "3 minutes speaking time per participant per round",
-            "Progression through elimination rounds",
-            "Judging on content, delivery, rebuttal skills, and time management"
+            "Eligibility: Open to students of all departments",
+            "Individual participation only - choose to speak 'For' or 'Against' the motion",
+            "Topic: 'Has streaming killed the traditional cinema experience?'",
+            "Each participant speaks for 3-4 minutes",
+            "Rebuttal round of 2 minutes",
+            "Time limits strictly enforced",
+            "All content must be original - plagiarism leads to disqualification",
+            "Valid college ID must be carried by each participant",
+            "Judging: Content Quality (20pts), Delivery & Confidence (20pts), Rebuttal Effectiveness (30pts), Audience Impact (10pts), Overall Presentation (20pts)",
+            "Participants must show respect and maintain decorum",
+            "Offensive or disrespectful language will result in disqualification",
+            "Judges' decision is final"
         ],
-        formUrl: "https://forms.google.com/debate"
+        formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfO-pI0fTecMV--NVYZPfMBYEscIWncv6KpbQGfWGZzum8zpg/viewform"
     },
-    tech: {
-        title: "Tech Project Exhibition",
-        date: "March 15, 2025",
-        time: "Afternoon (2:00 PM - 6:00 PM)",
-        fee: "₹200/- (Team)",
-        team: "Team (3-4 members)",
-        prizes: "1st: ₹3000, 2nd: ₹2000",
-        description: "The flagship event of IDEA SPARK where innovation takes center stage. Teams showcase groundbreaking projects, from mobile apps to IoT solutions, competing for the highest prize pool.",
+    openmic: {
+        title: "Open-Mic (Talent)",
+        date: "September 13, 2025",
+        time: "Afternoon Session",
+        fee: "Free Entry",
+        team: "Individual performance",
+        prizes: "1st: ₹1000, 2nd: ₹750, 3rd: ₹500 + Participation Certificates",
+        description: "Foster confidence, creativity, and cultural engagement through diverse individual performances. A platform to showcase your unique talents and entertain the audience.",
         rules: [
-            "Team size: 3-4 members mandatory",
-            "Project must be functional and demonstrable",
-            "10-minute presentation + 5-minute Q&A",
-            "All domains welcome: Web, Mobile, IoT, AI/ML, etc.",
-            "Judging on innovation, technical implementation, presentation, and commercial viability"
+            "Individual performances only",
+            "Performance duration: 3-5 minutes",
+            "Categories: Singing, Poetry, Stand-up Comedy, Storytelling, and more",
+            "Approximately 30 students expected",
+            "Evaluation based on creativity, originality, audience engagement, and stage presence",
+            "Participation certificates for all performers"
         ],
-        formUrl: "https://forms.google.com/tech"
+        formUrl: "https://forms.google.com/openmic"
     }
 };
 
@@ -182,6 +128,73 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
+// Navigation functionality
+function initNavigation() {
+    const nav = document.querySelector('.floating-nav');
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    // Mobile menu toggle
+    if (navToggle && navMenu) {
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!nav.contains(e.target)) {
+                navToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            }
+        });
+    }
+    
+    // Active link highlighting
+    function updateActiveLink() {
+        const sections = document.querySelectorAll('section[id], .hero');
+        const scrollPos = window.scrollY + 100;
+        
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.offsetHeight;
+            const sectionId = section.id || (section.classList.contains('hero') ? 'hero' : '');
+            
+            if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('onclick')?.includes(sectionId)) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+        });
+    }
+    
+    // Scroll effect for navigation
+    function handleNavScroll() {
+        if (window.scrollY > 50) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
+        updateActiveLink();
+    }
+    
+    // Add scroll listeners
+    window.addEventListener('scroll', handleNavScroll);
+    window.addEventListener('load', updateActiveLink);
+    
+    // Close mobile menu when clicking nav links
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            navToggle.classList.remove('active');
+            navMenu.classList.remove('active');
+        });
+    });
+}
+
 // Smooth scrolling and navigation
 function scrollToSection(sectionId) {
     const element = document.getElementById(sectionId);
@@ -240,7 +253,7 @@ function showNotification(message, type = 'success') {
         position: fixed;
         top: 2rem;
         right: 2rem;
-        background: ${type === 'success' ? '#00E5FF' : '#FF3B30'};
+        background: ${type === 'success' ? '#ffffff' : '#FF3B30'};
         color: #000000;
         padding: 1rem 1.5rem;
         border-radius: 12px;
@@ -541,6 +554,46 @@ function getCurrentSection() {
     return currentSection;
 }
 
+// Simplified background optimization for low-res image
+function initBackgroundImage() {
+    const hero = document.querySelector('.hero');
+    
+    // Simple hardware acceleration for hero section
+    hero.style.transform = 'translateZ(0)';
+    
+    // No need for progressive loading with low-res image
+    console.log('Low-res background image ready');
+}
+
+// Enhanced scroll performance optimization
+function initScrollOptimizations() {
+    let ticking = false;
+    
+    function updateScrollEffects() {
+        const scrolled = window.pageYOffset;
+        const nav = document.querySelector('.floating-nav');
+        
+        // Minimal scroll effects to maintain 60fps
+        if (nav && scrolled > 50 && !nav.classList.contains('scrolled')) {
+            nav.classList.add('scrolled');
+        } else if (nav && scrolled <= 50 && nav.classList.contains('scrolled')) {
+            nav.classList.remove('scrolled');
+        }
+        
+        ticking = false;
+    }
+    
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(updateScrollEffects);
+            ticking = true;
+        }
+    }
+    
+    // Use passive listeners for better scroll performance
+    window.addEventListener('scroll', requestTick, { passive: true });
+}
+
 // Performance optimizations
 function initPerformanceOptimizations() {
     // Lazy load images when implemented
@@ -570,6 +623,9 @@ function initPerformanceOptimizations() {
 
 // Initialize all features
 document.addEventListener('DOMContentLoaded', () => {
+    initNavigation();
+    initBackgroundImage();
+    initScrollOptimizations(); // Add scroll performance optimization
     initAOS();
     addNotificationStyles();
     initButtonInteractions();
