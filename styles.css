@@ -829,6 +829,12 @@ html {
         margin: 0;
     }
 
+    /* Mobile: Show event details by default */
+    .event-details {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+    }
+
     .modal-content {
         width: 95vw;
         max-width: 400px;
@@ -925,6 +931,12 @@ html {
 
     .event-card {
         padding: 1rem;
+    }
+
+    /* Mobile: Show event details by default */
+    .event-details {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
     }
 
     .modal-content {
